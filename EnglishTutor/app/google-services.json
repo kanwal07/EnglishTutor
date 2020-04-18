@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "242978096907",
+    "firebase_url": "https://loginexample-c32f6.firebaseio.com",
+    "project_id": "loginexample-c32f6",
+    "storage_bucket": "loginexample-c32f6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:242978096907:android:bbd8d8c2a7e48a5b02c40e",
+        "android_client_info": {
+          "package_name": "com.tense"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "242978096907-nmum8pvr0mo2ratlb97dt3tdmgnjvc46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tense",
+            "certificate_hash": "49584c3b12e2a54395413fd9f778fc6709f51692"
+          }
+        },
+        {
+          "client_id": "242978096907-o9epuutlei12ve4ljrsdfa9imrbftc4s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDeIKXbvs8qkd9bEM2_xEyruHDDkEhjFvU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "242978096907-o9epuutlei12ve4ljrsdfa9imrbftc4s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

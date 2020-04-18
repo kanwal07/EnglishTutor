@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.TenseActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="#56B6AD"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/rule"
+                android:layout_width="390dp"
+                android:layout_height="wrap_content"
+                android:text="rules"
+                android:textSize="20sp"
+                android:background="#4E4E4E"
+                android:textColor="#BDBDBD"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/example"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Examples"
+                android:textSize="20sp"
+                android:background="#4E4E4E"
+                android:textColor="#BDBDBD"
+                android:layout_marginTop="10dp"/>
+            <Button
+                android:id="@+id/exercise"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:text="Exercise"
+                android:textSize="20sp"
+                android:background="#4E4E4E"
+                android:textColor="#BDBDBD"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

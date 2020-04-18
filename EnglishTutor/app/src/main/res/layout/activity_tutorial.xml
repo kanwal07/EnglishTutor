@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activity.TutorialActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="#FB4B6D"
+   >
+    <Button
+        android:layout_width="150dp"
+        android:text="indefinite"
+        android:id="@+id/indefinate"
+        android:layout_height="wrap_content"
+        android:background="#9E5650"
+        android:textColor="#3E2525"
+        android:layout_gravity="center"
+        android:layout_marginTop="170dp"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="250dp"
+        android:text="Continuous"
+        android:id="@+id/contineous"
+        android:layout_height="wrap_content"
+        android:background="#9E5650"
+        android:textColor="#3E2525"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="350dp"
+        android:text="perfect"
+        android:id="@+id/perfect"
+        android:layout_height="wrap_content"
+        android:background="#9E5650"
+        android:textColor="#3E2525"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="390dp"
+        android:text="perfect Continuous"
+        android:id="@+id/perfect_Contineous"
+        android:layout_height="wrap_content"
+        android:background="#9E5650"
+        android:textColor="#3E2525"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="example"
+        android:id="@+id/example"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="20sp"
+        android:background="#2C2A2A"
+        android:textColor="#FB4B6D"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="tutorial"
+        android:id="@+id/tutorial"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:background="#2C2A2A"
+        android:textColor="#FB4B6D"/>
+</LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
